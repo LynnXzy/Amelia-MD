@@ -11,11 +11,11 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 ------- ${nameown} -------
 
 📮 *Note:*
-• Owner tidak menerima save contact
-• Owner berhak blockir tanpa alasan
-• Berbicaralah yang sopan & tidak spam
-• Owner Hanya merespon yang berkaitan dengan BOT
-• No Telp`
+• 𝑶𝒘𝒏𝒆𝒓 𝑻𝒊𝒅𝒂𝒌 𝑴𝒆𝒏𝒆𝒓𝒊𝒎𝒂 𝑺𝒂𝒗𝒆 𝑲𝒐𝒏𝒕𝒂𝒌
+• 𝑶𝒘𝒏𝒆𝒓 𝑩𝒆𝒓𝒉𝒂𝒌 𝑴𝒆𝒎𝑩𝒍𝒐𝒌𝒊𝒓 𝑻𝒂𝒏𝒑𝒂 𝑨𝒍𝒂𝒔𝒂𝒏
+• 𝑩𝒆𝒓𝒃𝒊𝒄𝒂𝒓𝒂 𝑳𝒂𝒉 𝒀𝒂𝒏𝒈 𝑺𝒐𝒑𝒂𝒏 & 𝑻𝒊𝒅𝒂𝒌 𝑺𝒑𝒂𝒎
+• 𝑶𝒘𝒏𝒆𝒓 𝑨𝒌𝒂𝒏 𝑴𝒆𝒎𝒃𝒂𝒍𝒂𝒔 𝑩𝒆𝒓𝒌𝒆𝒏𝒂𝒂𝒏 𝑩𝒐𝒕
+• 𝑵𝒐 𝑻𝒆𝒍𝒑`
 
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
