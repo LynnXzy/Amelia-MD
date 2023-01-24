@@ -496,9 +496,9 @@ export async function handler(chatUpdate) {
                 if (!('detect' in chat))
                     chat.detect = false
                 if (!('sWelcome' in chat))
-                    chat.sWelcome = ''
+                    chat.sWelcome = 'true'
                 if (!('sBye' in chat))
-                    chat.sBye = ''
+                    chat.sBye = 'true'
                 if (!('sPromote' in chat))
                     chat.sPromote = ''
                 if (!('sDemote' in chat))
@@ -528,8 +528,8 @@ export async function handler(chatUpdate) {
                     isBanned: false,
                     welcome: true,
                     detect: false,
-                    sWelcome: '',
-                    sBye: '',
+                    sWelcome: 'true',
+                    sBye: 'true',
                     sPromote: '',
                     sDemote: '',
                     delete: true,
@@ -990,7 +990,7 @@ const fgclink = {
            },
            "message": {
                "groupInviteMessage": {
-                   "groupJid": "6282127487538-1625305606@g.us",
+                   "groupJid": "60149431385-1618206438@g.us",
                    "inviteCode": "null",
                    "groupName": "Halo", 
                    "caption": wm, 
@@ -1013,7 +1013,7 @@ let mod = {
 mods: 'Printah ini hanya di gunakan oleh *Moderator BOT* !'}[type]
   if (mod) return conn.sendButtonDocAccess(m.chat, ucapan() + tag + '\n' + mod, 'Only Moderator', 'MENU', '.menu', m, adReply)
 let prm = {
-        premium: 'Printah ini hanya di gunakan oleh member *Premium* !'}[type]
+        premium: 'Khusus User *Premium* Kontol!'}[type]
   if (prm) return conn.sendButtonDocAccess(m.chat, ucapan() + tag + '\n' + prm, 'Only Premium', 'Beli Prem', '.uppremium', m, adReply)
 
 let gc = {
@@ -1023,8 +1023,8 @@ let gc = {
 
 let msg = {
         private: 'Printah ini hanya dapat di gunakan di *Private Chat !*',
-        admin: 'Printah ini hanya di gunakan oleh *Admin* !',
-        botAdmin: 'Printah ini hanya di gunakan ketika bot menjadi *Admin Group* !',
+        admin: 'Khusus *Admin*, Kidzz!',
+        botAdmin: ' Jdiin *Admin Group* Dlu Bgst!',
         restrict: 'Restrict belum di nyalakan di chat ini !'}[type]
   /*  if (msg) return conn.sendButtonDoc(m.chat, msg, wm, 'Menu', '.menu', fgclink)*/
   if (msg) return conn.sendButtonDocAccess(m.chat, ucapan() + tag + '\n' + msg, wm, 'MENU', '.menu', m, adReply)
