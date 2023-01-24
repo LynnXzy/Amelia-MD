@@ -123,7 +123,7 @@ function clearTmp() {
 }
 
 const hehe = async (jid, options) => {
-  let wm = 'Amelia-MD';
+  let wm = 'Lynn-Md';
   let gambar = 'https://telegra.ph/file/2d06f0936842064f6b3bb.png';
   try {
     gambar = await conn.profilePictureUrl(jid, 'image');
@@ -140,14 +140,14 @@ const hehe = async (jid, options) => {
       message: {
         'contactMessage': {
           'displayName': wm,
-          'vcard': `BEGIN:VCARD\nVERSION:3.0\nFN:Putra\nORG:Ashoka Uni;\nTEL;type=CELL;type=VOICE;waid=6282214729677:+62 822 1472 9677\nEND:VCARD`,
+          'vcard': `BEGIN:VCARD\nVERSION:3.0\nFN:Lynn\nORG:Ashoka Uni;\nTEL;type=CELL;type=VOICE;waid=60189830350:+60 18-983 0350\nEND:VCARD`,
           'jpegThumbnail': gambar,
           'thumbnail': gambar,
           'sendEphemeral': true
         }
       }
     }
-    const txt = `\n[ ✅ ] Berhasil Terhubung Ke SC Amelia-MD:v.\nTerimakasih @${jid.split`@`[0]}, Karena sudah memberikan script gratis ini.\n\n\n📑Sumber Script:\nPutraModzOfficial`
+    const txt = `\n[ ✅ ] Berhasil Terhubung Ke SC Lynn-Md:v.\nTerimakasih @${jid.split`@`[0]}, Karena sudah memberikan script gratis ini.\n\n\n📑Sumber Script:\nGithub.com/LynnXzy`
     return await conn.sendMessage(jid, { text: txt, mentions: [jid], ...options }, { quoted: fkontak, ephemeralExpiration: 86400, ...options })
   }
 }
