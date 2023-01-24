@@ -37,7 +37,7 @@ let name = await conn.getName(who)
             externalAdReply: {
                 mediaUrl: url,
                 mediaType: "VIDEO",
-                title: 'Click video di atas untuk melihat',
+                title: 'PENCARIAN ANDA DI VIDEO ATAS',
                 body: bottime,
                 previewType: 0,
                 thumbnail: img1
