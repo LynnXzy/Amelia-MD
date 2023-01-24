@@ -43,36 +43,36 @@ let info =
 `
 Open Sewa Bot:)
 `
-  /*  {title: "🔖 HEMAT", rowId: '.order *Paket:* HEMAT • Sewa', description: 'PRICE: ' + sh + 'k (1 minggu)' },
-	    {title: "🔖 NORMAL", rowId: '.order *Paket:* NORMAL • Sewa', description: 'PRICE: ' + sn + 'k (1 bulan)' },
-	{title: "🔖 STANDAR", rowId: '.order *Paket:* STANDAR • Sewa', description: 'PRICE: ' + ss + 'k (2 bulan)' },
-	{title: "🔖 PRO", rowId: '.order *Paket:* PRO • Sewa', description: 'PRICE: ' + sp + 'k (4 bulan)' },
-	{title: "🔖 VIP", rowId: '.order *Paket:* VIP • Sewa', description: 'PRICE: ' + sv + 'k (12 bulan)' },*/
+  /*  {title: "🔖 HEMAT", rowId: '.order *Paket:* HEMAT • Sewa', description: 'PRICE: Rm' + sh + ' (1 minggu)' },
+	    {title: "🔖 NORMAL", rowId: '.order *Paket:* NORMAL • Sewa', description: 'PRICE: Rm' + sn + ' (1 bulan)' },
+	{title: "🔖 STANDAR", rowId: '.order *Paket:* STANDAR • Sewa', description: 'PRICE: Rm' + ss + ' (2 bulan)' },
+	{title: "🔖 PRO", rowId: '.order *Paket:* PRO • Sewa', description: 'PRICE: Rm' + sp + ' (4 bulan)' },
+	{title: "🔖 VIP", rowId: '.order *Paket:* VIP • Sewa', description: 'PRICE: Rm' + sv + ' (12 bulan)' },*/
 const sections = [{
 title: `⟥⟝⟢⟨ Sᴇᴡᴀ Bᴏᴛ ⟩⟣⟞⟤`,
 rows: [
 {title: "⟣⟨ HEMAT ⟩⟢",
 rowId: '.store sewabottt 15 Hari',
-description: 'Pʀɪᴄᴇ Sᴇᴡᴀ 5 ᴋ : 15 Hᴀʀɪ' },
+description: 'Pʀɪᴄᴇ Sᴇᴡᴀ Rm 5  : 15 Hᴀʀɪ' },
 {title: "⟣⟨ NORMAL ⟩⟢",
 rowId: '.store sewabottt 30 Hari',
-description: 'Pʀɪᴄᴇ Sᴇᴡᴀ 10 ᴋ : 30 Hᴀʀɪ' },
+description: 'Pʀɪᴄᴇ Sᴇᴡᴀ Rm 10  : 30 Hᴀʀɪ' },
 {title: "⟣⟨ STANDAR ⟩⟢",
 rowId: '.store sewabottt 40 hari',
-description: 'Pʀɪᴄᴇ Sᴇᴡᴀ 15 ᴋ : 40 Hᴀʀɪ' },
+description: 'Pʀɪᴄᴇ Sᴇᴡᴀ Rm 15  : 40 Hᴀʀɪ' },
 {title: "⟣⟨ PRO ⟩⟢",
 rowId: '.store sewabottt 50 hari',
-description: 'Pʀɪᴄᴇ Sᴇᴡᴀ 28 ᴋ : 50 Hᴀʀɪ' },
+description: 'Pʀɪᴄᴇ Sᴇᴡᴀ Rm 28  : 50 Hᴀʀɪ' },
 ]},
 {
 title: `${htjava} PREMIUM ✦-------`,
 rows: [
 {title: "🌟 HEMAT", 
 rowId: '.order  *premium 20 hari*', 
-description: 'PRICE: ' + ph + 'k (20 Hᴀʀɪ)' },
+description: 'PRICE: Rm' + ph + ' (20 Hᴀʀɪ)' },
 {title: "🌟 NORMAL", 
 rowId: '.order *premium 43 hari*', 
-description: 'PRICE: ' + pn + 'k (43 Hᴀʀɪ)' },
+description: 'PRICE: Rm' + pn + ' (43 Hᴀʀɪ)' },
 ]},
 ]
 
