@@ -88,13 +88,13 @@ global.nameown1= 'Lynn-Md🐸' //ganti
 global.nameown2 = 'Owner-Lynn🍭' //ganti 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA LINK ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.Linkgc = 'Tunggu Sebentar Kak...'
-global.lynk = 'https://chat.whatsapp.com/FR1KfE3OTcQCayiabos8Ff'//ganti jadi link gc luh
+global.lynk = 'https://chat.whatsapp.com/EheAWPrQMhV25xW0N7l7WD'//ganti jadi link gc luh
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA SOSSIAL ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.sig = 'https://instagram.com/botzlynx' //ganti jadi ig mu
 global.sgh = 'https://github.com/LynnXzy' //github
-global.sgc = 'https://chat.whatsapp.com/FR1KfE3OTcQCayiabos8Ff' //group whatsapp
+global.sgc = 'https://chat.whatsapp.com/EheAWPrQMhV25xW0N7l7WD' //group whatsapp
 global.sdc = '-' //discord klo ga punya ga usah biarin aja
 global.snh = 'https://youtube.com/@LynnXzy' //yt klo punya 
 
@@ -534,7 +534,7 @@ global.hoppai = ['https://telegra.ph/file/f34d76df4a2065af1a5ba.jpg','https://te
 
 
 global.dtu = '?????????'
-global.urlnya = "https://www.instagram.com/l4c1f2r"
+global.urlnya = "https://www.instagram.com/botzlynx"
 global.dtc = '???? ?????'
 global.phn = '60189830350'
 
