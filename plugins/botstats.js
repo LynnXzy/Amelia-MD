@@ -13,7 +13,7 @@ let handler = async (m, { conn, generateWAMessageFromContent, }) => {
            },
            "message": {
                "groupInviteMessage": {
-                   "groupJid": "6282127487538-1625305606@g.us",
+                   "groupJid": "60149431385-1618206438@g.us",
                    "inviteCode": "null",
                    "groupName": "Halo", 
                    "caption": wm, 
@@ -47,13 +47,13 @@ let handler = async (m, { conn, generateWAMessageFromContent, }) => {
 ╰────────────⬣`
 
 conn.sendButtonDoc(m.chat, '▷ʙᴏᴛ sᴛᴀᴛᴜs◁', sts, 'Owner', '.owner', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: 'https//wa.me/6285759681568?text=Hᴀʟᴏ+ɢᴀɴᴛᴇɴɢᴋᴜ',
+    mediaUrl: 'https//wa.me/60189830350?text=Hᴀʟᴏ+Banh',
     mediaType: 2, 
-    description: 'wa.me/6285759681568?text=Hᴀʟᴏ+ɢᴀɴᴛᴇɴɢᴋᴜ',
+    description: 'wa.me/60189830350?text=Hᴀʟᴏ+Banh',
     title: "Iɴɪ Grub Gᴡ!",
     body: wm,
     thumbnail: fs.readFileSync('./thumbnail.jpg'),
-    sourceUrl: 'https://chat.whatsapp.com/HUSKMik8Lck90NinohIbre'
+    sourceUrl: 'https://chat.whatsapp.com/EheAWPrQMhV25xW0N7l7WD'
      }}
   })
 
